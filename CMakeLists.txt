@@ -125,12 +125,12 @@ install(
    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/deepin-installer
 )
 install(
-    FILES ${CMAKE_CURRENT_SOURCE_DIR}/deepin-installer.svg
+    FILES ${CMAKE_CURRENT_SOURCE_DIR}/whirlwind-installer.svg
     DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/scalable/apps/
 )
 
 install(
-    FILES ${CMAKE_CURRENT_SOURCE_DIR}/deepin-installer.png
+    FILES ${CMAKE_CURRENT_SOURCE_DIR}/whirlwind-installer.png
     DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/48x48/apps/
 )
 install(
