@@ -1,0 +1,653 @@
+.TitleSet {
+    position:absolute;
+    width:100%;
+    height:30px;
+    line-height:30px;
+    top:40px;
+    font-size:14px;
+    color:#B3B3B3;
+}
+
+
+.KeyboardSet, .TimezoneSet, .PartTitleMode {
+    position:relative;
+    float:right;
+    max-width:150px;
+    height:30px;
+    line-height:30px;
+    padding-right:10px;
+    color:#FFFFFF;
+    text-align:left;
+    text-indent:40px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    border-radius:4px;
+}
+
+.KeyboardSet {
+    background:url("../images/keyboard.png") no-repeat;
+    background-position:10px 3px;
+}
+
+.TimezoneSet {
+    margin-right:26px;
+    background:url("../images/timezone.png") no-repeat;
+    background-position:10px 3px;
+}
+
+.TimezoneSet:hover, .KeyboardSet:hover, .PartTitleMode:hover {
+    cursor:pointer;
+}
+
+.WelcomeWrap {
+    position:absolute;
+    top:75px;
+    left:25px;
+    width:702px;
+    height:467px;
+    overflow:hidden;
+}
+
+.Account {
+    position:absolute;
+    top:0;
+    left:0;
+    width:700px;
+    height:450px;
+}
+
+.WelcomeForm {
+    position:absolute;
+    left:214px;
+    right:214px;
+    top:60px;
+    width:272px;
+}
+
+#username input {
+    background:url("../images/username.png") no-repeat 0px -1px;
+}
+
+#hostname input {
+    background:url("../images/hostname.png") no-repeat 0px -1px;
+}
+
+#password input {
+    background:url("../images/password.png") no-repeat 0px -1px;
+}
+
+#confirmpassword input {
+    background:url("../images/password.png") no-repeat 0px -1px;
+}
+
+.WelcomeFormItem {
+    position:relative;
+    width:272px;
+    height:36px;
+    margin-bottom:30px;
+    border-radius:4px;
+    background:-webkit-gradient(linear, left top, left bottom, from(rgba(133,133,133,0.2)), color-stop(0.1, rgba(255,255,255,0.2)), to(rgba(255,255,255,0.2)));
+}
+
+.WelcomeFormItem input {
+    padding:0;
+    width:272px;
+    height:36px;
+    line-height:1.1;
+    padding-left:36px;
+    outline-style:none;
+    color: #dadada;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    border-radius: 3px;
+    border: 1px solid rgba(64, 64, 64, 0.6);
+    box-shadow: 1px 1px 3px rgba(64, 64, 64, 0.2);
+}
+
+.WelcomeFormItem input:focus {
+    border: 1px solid rgba(123, 190, 251, 0.9);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+.WelcomeFormItem input::-webkit-input-placeholder {
+    color: #94a9c8;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+}
+
+.PasswordStyle {
+    -webkit-text-security:disc !important;
+}
+
+.CapsWarning {
+    position:absolute;
+    right:5px;
+    top:6px;
+    background:url("../images/capslock.png") no-repeat;
+    width:23px;
+    height:23px;
+    display:none;
+}
+
+.Keyboard {
+    position:absolute;
+    top:15px;
+    width:700px;
+    height:450px;
+}
+
+.Query {
+    width:700px;
+    height:50px;
+    background:rgba(255,255,255,0.2);
+    box-shadow:inset 0 1px rgba(255,255,255,0.3),
+               inset -1px 0 rgba(255,255,255,0.3),
+               inset 1px 0 rgba(255,255,255,0.3),
+               0 -1px rgba(0,0,0,0.3),
+               1px 0 rgba(0,0,0,0.3),
+               -1px 0 rgba(0,0,0,0.3);
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.Query .Left {
+    float:left;
+    width:700px;
+    height:50px;
+}
+
+.Query ul {
+    list-style:none;
+    float:left;
+    padding-left:20px;
+}
+
+.Query ul li {
+    float:left;
+    font-size:14px;
+    margin:4px;
+    width:14px;
+    height:14px;
+    line-height:14px;
+    text-align:center;
+    border: 2px solid transparent;
+}
+
+.LetterActive {
+    background:transparent;
+    border:solid 2px rgba(255,255,3,0.5) !important;
+    border-radius:50%;
+}
+
+.Query .QueryWrap {
+    width:684px;
+    height:34px;
+    margin:8px;
+    border-top:1px solid rgba(0,0,0,0.5);
+    border-left:1px solid rgba(0,0,0,0.5);
+    border-right:1px solid rgba(0,0,0,0.5);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    box-shadow:inset 0 -1px rgba(0,0,0,0.3);
+    border-radius:4px;
+    background:-webkit-gradient(linear, left top, left bottom, from(rgba(133,133,133,0.2)), color-stop(0.1, rgba(255,255,255,0.2)), to(rgba(255,255,255,0.2)));
+}
+
+.Query input {
+    width:684px;
+    height:34px;
+    border-style:none;
+    padding-left:6px;
+    outline-style:none;
+    text-shadow:0 1px rgba(0,0,0,0.5);
+    color:rgba(255,255,255,1);
+    background:url("../images/search.png") no-repeat;
+    background-position:656px 7px;
+}
+
+::-webkit-input-placeholder {
+    text-shadow:0 1px rgba(0,0,0,0.5);
+    color:rgba(255,255,255,1);
+}
+
+.Query .QueryImg {
+    position:absolute;
+    top:9px;
+    left:656px;
+    width:38px;
+    height:34px;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+
+.Query .QueryImg:hover {
+    background:-webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.2)), to(rgba(255,255,255,0.1)));
+    border-left:1px solid rgba(0,0,0,0.4);
+    box-shadow:inset 1px 0 rgba(255,255,255,0.2);
+}
+
+.QueryComplete {
+    position:relative;
+    left:8px;
+    top:-4px;
+    width:684px;
+    height:auto;
+    max-height:180px;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(255,255,255,0.3);
+    border-radius:0 0 3px 3px;
+    box-shadow:1px 0 rgba(0,0,0,0.3),
+               -1px 0 rgba(0,0,0,0.3),
+               0 1px rgba(0,0,0,0.3);
+    overflow:hidden;
+    z-index:900;
+}
+
+.QueryCompleteItem {
+    height:30px;
+    line-height:30px;
+    text-indent:30px;
+    color:rgba(0,0,0,1);
+}
+
+.QueryCompleteItem:hover {
+    background:#3a61b1;
+    color:rgba(255,255,3,1);
+}
+
+.KeyboardTri {
+    position:absolute;
+    top:-13px;
+    left:555px;
+    width:22px;
+    height:14px;
+    background:url("../images/triangle_keyboard.png") no-repeat;
+    z-index:200;
+}
+
+.KeyboardContent {
+    width:700px;
+    height:370px;
+    background:rgba(255,255,255,0.2);
+    border-top:1px solid rgba(0,0,0,0.3);
+    border-radius:0 0 5px 5px;
+    box-shadow:inset 0 1px rgba(255,255,255,0.3),
+               inset 0 -1px rgba(255,255,255,0.3),
+               inset 1px 0 rgba(255,255,255,0.3),
+               inset -1px 0 rgba(255,255,255,0.3),
+               0 1px rgba(0,0,0,0.3),
+               1px 0 rgba(0,0,0,0.3),
+               -1px 0 rgba(0,0,0,0.3);
+}
+
+.KeyboardList {
+    width:700px;
+    height:330px;
+    border-bottom:1px solid rgba(0,0,0,0.3);
+    box-shadow:0 1px rgba(255,255,255,0.3);
+}
+
+.LayoutList {
+    float:left;
+    width:210px;
+    height:330px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+
+.VariantList {
+    float:left;
+    margin-left:3px;
+    width:486px;
+    height:330px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    border-left:1px solid rgba(0,0,0,0.3);
+    box-shadow:inset 1px 0 rgba(255,255,255,0.3);
+}
+
+.LayoutItem, .VariantItem, .KeyboardItem {
+    overflow:hidden;
+    text-overflow:clip;
+    height:30px;
+    line-height:30px;
+    padding-left:30px;
+}
+
+.KeyboardFocus {
+    background:rgba(255,255,3,0.3);
+}
+
+.KeyboardHover {
+    background:rgba(255,255,3,0.1);
+}
+
+.KeyboardSelect {
+    background:url("../images/select.png") no-repeat; 
+    background-position:8px 8px;
+}
+
+.KeyboardSelectHover {
+    background:rgba(255,255,3, 0.1) url("../images/select.png") no-repeat; 
+    background-position:8px 8px;
+}
+
+.KeyboardActive {
+    background:rgba(255,255,3,0.3) url("../images/select.png") no-repeat; 
+    background-position:8px 8px;
+}
+
+.KeyboardOp {
+    height:40px;
+    line-height:40px;
+}
+
+.KeyboardOp div {
+    float:right;
+    margin:0 10px;
+    text-indent:20px;
+}
+
+.KeyboardOp .Default {
+    background:url("../images/default_layout.png") no-repeat;
+    background-position:0 10px;
+}
+
+.KeyboardOp .Detect {
+    background:url("../images/detect_layout.png") no-repeat;
+    background-position:0 10px;
+}
+
+.KeyboardOp .Default:hover, .KeyboardOp .Detect:hover {
+  cursor: pointer;
+}
+
+.KeyboardDetectDialog .DialogContent {
+    background:rgba(255,255,255,0.1);
+    height:90px;
+}
+
+.KeyboardDetectDialog .DialogBtn{
+    background:rgba(255,255,255,0.1);
+    height:40px;
+}
+
+.KeyboardDetectDialog .DialogBtn div{
+    margin:0 20px 0 0;
+}
+
+.KeyboardDetectDialog .Desc {
+    text-align:left;
+    padding-left:25px;
+    padding-top:4px;
+}
+
+.KeyboardDetectDialog .Detail {
+    text-align:left;
+    padding-left:25px;
+    height:30px;
+    color:rgba(255,255,3,0.9);
+}
+
+.KeyboardDetectDialog ul {
+    list-style:none;
+    text-align:left;
+    margin-left:-37px;
+}
+
+.KeyboardDetectDialog ul li {
+    float:left;
+    margin-right:15px;
+    font-size:16px;
+}
+
+.Timezone {
+    position:absolute;
+    top:15px;
+    width:700px;
+    height:450px;
+}
+
+.TimezoneTri {
+    position:absolute;
+    top:-13px;
+    left:633px;
+    width:22px;
+    height:14px;
+    background:url("../images/triangle_timezone.png") no-repeat;
+    z-index:200;
+}
+
+.TimezoneWrap {
+    width:700px;
+    background:rgba(255,255,255,0.2);
+}
+
+.TimezonePicker {
+    background:url("../images/zonemap.png") no-repeat;
+    position:relative;
+    width:700px;
+    height:370px;
+    border-top:1px solid rgba(0,0,0,0.3);
+    border-radius:0 0 5px 5px;
+    box-shadow:inset 0 1px rgba(255,255,255,0.3),
+               inset 0 -1px rgba(255,255,255,0.3),
+               inset 1px 0 rgba(255,255,255,0.3),
+               inset -1px 0 rgba(255,255,255,0.3),
+               0 1px rgba(0,0,0,0.3),
+               1px 0 rgba(0,0,0,0.3),
+               -1px 0 rgba(0,0,0,0.3);
+}
+
+.TimezoneMap {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0.5;
+    width:700px;
+    height:370px;
+    background:rgba(255,255,255,0.2);
+}
+
+.TimezoneCanvas {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:700px;
+    height:370px;
+}
+
+.Pin {
+    position:absolute;
+    margin:0px;
+    padding:0px;
+}
+
+.Circle {
+    position:absolute;
+    top:-11px;
+    left:-11px;
+    width:35px;
+    height:35px;
+}
+
+.Inner {
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:14px;
+    height:14px;
+    border-radius:15px;
+    border:1px solid rgba(247,169,48,1.0);
+}
+
+.Outer {
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:14px;
+    height:14px;
+    border-radius:15px;
+    border:1px solid rgba(247,169,48,1.0);
+}
+
+#start {
+    position:absolute;
+    left:260px;
+    bottom:60px;
+}
+
+@-webkit-keyframes pinflash {
+    0% {
+        opacity:0;
+    }
+    10% {
+        opacity:0;
+    }
+    20% {
+        opacity:0;
+    }
+    30% {
+        opacity:0;
+    }
+    40% {
+        opacity:0;
+    }
+    50% {
+        opacity:1;
+        top:10px;
+        left:10px;
+        width:14px;
+        height:14px;
+        border-radius:8px;
+    }
+    60% {
+        opacity:0.9;
+        top:9px;
+        left:9px;
+        width:16px;
+        height:16px;
+        border-radius:9px;
+    }
+    70% {
+        opacity:0.8;
+        top:8px;
+        left:8px;
+        width:18px;
+        height:18px;
+        border-radius:10px;
+    }
+    80% {
+        opacity:0.7;
+        top:7px;
+        left:7px;
+        width:20px;
+        height:20px;
+        border-radius:11px;
+    }
+    90% {
+        opacity:0.6;
+        top:6px;
+        left:6px;
+        width:22px;
+        height:22px;
+        border-radius:12px;
+    }
+    100% {
+        opacity:0.5;
+        top:5px;
+        left:5px;
+        width:24px;
+        height:24px;
+        border-radius:13px;
+    }
+}
+
+@-webkit-keyframes flashpin {
+    0% {
+        opacity:1;
+        top:10px;
+        left:10px;
+        width:14px;
+        height:14px;
+        border-radius:8px;
+    }
+    10% {
+        opacity:0.9;
+        top:9px;
+        left:9px;
+        width:16px;
+        height:16px;
+        border-radius:9px;
+    }
+    20% {
+        opacity:0.8;
+        top:8px;
+        left:8px;
+        width:18px;
+        height:18px;
+        border-radius:10px;
+    }
+    30% {
+        opacity:0.7;
+        top:7px;
+        left:7px;
+        width:20px;
+        height:20px;
+        border-radius:11px;
+    }
+    40% {
+        opacity:0.6;
+        top:6px;
+        left:6px;
+        width:22px;
+        height:22px;
+        border-radius:12px;
+    }
+    50% {
+        opacity:0.5;
+        top:5px;
+        left:5px;
+        width:24px;
+        height:24px;
+        border-radius:13px;
+    }
+    60% {
+        opacity:0.4;
+        top:4px;
+        left:4px;
+        width:26px;
+        height:26px;
+        border-radius:14px;
+    }
+    70% {
+        opacity:0.3;
+        top:3px;
+        left:3px;
+        width:28px;
+        height:28px;
+        border-radius:15px;
+    }
+    80% {
+        opacity:0.2;
+        top:2px;
+        left:2px;
+        width:30px;
+        height:30px;
+        border-radius:16px;
+    }
+    90% {
+        opacity:0.1;
+        top:1px;
+        left:1px;
+        width:32px;
+        height:32px;
+        border-radius:17px;
+    }
+    100% {
+        opacity:0;
+        top:0px;
+        left:0px;
+        width:34px;
+        height:34px;
+        border-radius:18px;
+    }
+}

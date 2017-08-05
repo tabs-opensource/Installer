@@ -1,0 +1,43 @@
+.Finish{
+    text-shadow:1px 3px 5px rgba(0,0,0,0.35);
+}
+
+.FinishInfo {
+    margin-top:60px;
+    width:100%;
+    text-align:center;
+    display:-webkit-box;
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+    -webkit-box-orient:vertical;
+}
+
+.FinishInfo .Image{
+    width:98px;
+    height:98px;
+}
+
+.FinishInfo .Desc{
+    margin-top:20px;
+    font-size:30px;
+    height:40px;
+    line-height:40px;
+}
+
+.FinishInfo .Detail{
+    margin-top:20px;
+    font-size:15px;
+    padding:5px 50px;
+    line-height:150%;
+    color:rgba(255,255,255,1.0);
+    cursor:pointer;
+}
+
+.FinishOps {
+    position:absolute;
+    bottom:50px;
+    width:100%;
+    display:-webkit-box;
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+}

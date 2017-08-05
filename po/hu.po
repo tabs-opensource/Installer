@@ -1,0 +1,474 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Kiss Zoltan <atari@freemail.hu>, 2017
+# ddabrahim <ddabrahim@googlemail.com>, 2014
+# kdavid97 <kdavid97@gmail.hu>, 2014-2015
+# Laszlo Espadas <kardiweb@protonmail.ch>, 2017
+# SlazO <blum1866@gmail.com>, 2014
+# unicum99 <stampf99@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Deepin Installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-02 09:44+0800\n"
+"PO-Revision-Date: 2017-03-28 14:08+0000\n"
+"Last-Translator: Laszlo Espadas <kardiweb@protonmail.ch>\n"
+"Language-Team: Hungarian (http://www.transifex.com/linuxdeepin/deepin-installer/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../resources/installer/js/finish.coffee:34
+#: ../resources/installer/js/finish.coffee:42
+msgid "Reboot Now"
+msgstr "Újraindítás most"
+
+#: ../resources/installer/js/finish.coffee:40
+msgid "Installation Succeed!"
+msgstr "Sikeres telepítés!"
+
+#: ../resources/installer/js/finish.coffee:41
+msgid ""
+"Tips: Please remove the installation media before reboot, so as to avoid "
+"reentering into the installation environment when you start the computer "
+"next time. "
+msgstr "Tipp: Távolítsuk el a telepítő médiát az újraindítás előtt az ismételt telepítés elkerüléséhez."
+
+#: ../resources/installer/js/finish.coffee:45
+msgid "Installation Failed!"
+msgstr "Sikertelen telepítés!"
+
+#: ../resources/installer/js/finish.coffee:47
+msgid ""
+"The installation log has been saved on the desktop for you.\n"
+" To help us improve the system better, please send the log to Deepin Team. Thank you! "
+msgstr "A telepítési napló mentésre került az asztalon.\nKüldjük el a Deepin csapatának a naplót a hibajavítás gyors elvégzéséhez.\nKöszönjük!"
+
+#: ../resources/installer/js/finish.coffee:48
+msgid "Exit Installation"
+msgstr "Kilépés a telepítőből"
+
+#: ../resources/installer/js/progress.coffee:25
+msgid "Error Report"
+msgstr "Hibajelentés"
+
+#: ../resources/installer/js/progress.coffee:27
+msgid "System installation failed. Please send the log to Deepin Team."
+msgstr "A rendszer telepítése sikertelen. Küldjük el a naplót a Deepin Csapatának."
+
+#: ../resources/installer/js/progress.coffee:40
+msgid "Preparing for Installation"
+msgstr "Felkészülés a telepítésre"
+
+#: ../resources/installer/js/virtual.coffee:24
+msgid "Tips"
+msgstr "Tippek"
+
+#: ../resources/installer/js/virtual.coffee:27
+msgid ""
+"It is detected that you are using a virtual machine. Installing Deepin on a "
+"virtual machine will affect its performances. You are recommended to "
+"experience it in a real environment."
+msgstr "Virtuális számítógép van használatban. A Deep virtuális számítógépre való telepítése befolyásolni fogja a teljesítményét. Valós  körülmények között ajánlott a használata."
+
+#: ../resources/installer/js/virtual.coffee:29
+msgid "Continue"
+msgstr "Folytatás"
+
+#: ../resources/installer/js/part.coffee:126
+#: ../resources/installer/js/part.coffee:145
+msgid "Freespace"
+msgstr "Szabad hely"
+
+#: ../resources/installer/js/part.coffee:197
+#: ../resources/installer/js/part.coffee:202
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: ../resources/installer/js/part.coffee:306
+msgid "Install Here"
+msgstr "Telepítés ide"
+
+#: ../resources/installer/js/part.coffee:343
+#: ../resources/installer/js/part.coffee:846
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+#: ../resources/installer/js/part.coffee:344
+msgid ""
+"You  may not boot due to too small space of /boot mount point, please "
+"improve the space to 300M at least."
+msgstr "Előfordulhat, hogy a rendszer nem fog elindulni mert a /boot csatolási pont túl kicsi, adjunk meg legalább 300M tárhelyet."
+
+#: ../resources/installer/js/part.coffee:473
+msgid "Disk"
+msgstr "Lemez"
+
+#: ../resources/installer/js/part.coffee:493
+msgid "Device"
+msgstr "Eszköz"
+
+#: ../resources/installer/js/part.coffee:495
+msgid "Size"
+msgstr "Méret"
+
+#: ../resources/installer/js/part.coffee:497
+msgid "Free Space"
+msgstr "Szabad hely"
+
+#: ../resources/installer/js/part.coffee:499
+msgid "Filesystem"
+msgstr "Fájlrendszer"
+
+#: ../resources/installer/js/part.coffee:501
+msgid "Information"
+msgstr "Információ"
+
+#: ../resources/installer/js/part.coffee:503
+msgid "Mount Point"
+msgstr "Csatolási pont"
+
+#: ../resources/installer/js/part.coffee:505
+msgid "Formatting"
+msgstr "Formázás"
+
+#: ../resources/installer/js/part.coffee:512
+#: ../resources/installer/js/dialog.coffee:98
+msgid "Delete Partition"
+msgstr "Partíció törlése"
+
+#: ../resources/installer/js/part.coffee:523
+msgid "New Partition"
+msgstr "Új partíció"
+
+#: ../resources/installer/js/part.coffee:618
+#: ../resources/installer/js/part.coffee:871
+msgid "Expert Mode"
+msgstr "Szakértő mód"
+
+#: ../resources/installer/js/part.coffee:628
+msgid "Install"
+msgstr "Telepítés"
+
+#: ../resources/installer/js/part.coffee:657
+#: ../resources/installer/js/part.coffee:665
+#: ../resources/installer/js/part.coffee:673
+msgid "Installation Tips"
+msgstr "Telepítési tippek"
+
+#: ../resources/installer/js/part.coffee:658
+msgid "A root partition (/) is required."
+msgstr "Egy root partíció (/) szükséges"
+
+#: ../resources/installer/js/part.coffee:666
+msgid "UEFI-native installation only supports GPT-formatted disk."
+msgstr "Az UEFI telepítés csak GPT partícióval ellátott lemezt támogat."
+
+#: ../resources/installer/js/part.coffee:674
+msgid ""
+"ESP’s support is needed in UEFI mode and please create a partition of 100MB "
+"or more in efi format."
+msgstr "Az UEFI módhoz ESP támogatás szükséges. Hozzunk létre egy 100MB méretű partíciót efi formátumban."
+
+#: ../resources/installer/js/part.coffee:702
+#: ../resources/installer/js/dialog.coffee:146
+msgid "Add Partition"
+msgstr "Partíció hozzáadás"
+
+#: ../resources/installer/js/part.coffee:703
+msgid "Can't create a partition here"
+msgstr "Nem lehet létrehozni partíciót itt"
+
+#: ../resources/installer/js/part.coffee:747
+msgid "UEFI"
+msgstr "UEFI"
+
+#: ../resources/installer/js/part.coffee:758
+msgid "Boot Loader"
+msgstr "Rendszerbetöltő"
+
+#: ../resources/installer/js/part.coffee:806
+msgid "Unmount Partition"
+msgstr "Partíció leválasztása"
+
+#: ../resources/installer/js/part.coffee:807
+msgid ""
+"Partition is detected to have been mounted.\n"
+"Are you sure you want to unmount it?"
+msgstr "A partíció csatolva van.\nBiztos leválasztjuk?"
+
+#: ../resources/installer/js/part.coffee:847
+msgid ""
+"UEFI-native installation only supports GPT-formatted disk. You will lose all"
+" disk data if you insist on installing."
+msgstr "UEFI natív telepítéshez GPT partíciós táblával formázott lemez szükséges. Ha ragaszkodunk a telepítéshez a lemezen tárolt összes adatot elveszítjük."
+
+#: ../resources/installer/js/part.coffee:860
+msgid "Simple Mode"
+msgstr "Egyszerű mód"
+
+#: ../resources/installer/js/base.coffee:30
+msgid "Installation Requirements"
+msgstr "Telepítési követelmények"
+
+#: ../resources/installer/js/base.coffee:31
+#, python-format
+msgid "To install Deepin OS, you need to have at least %d GB disk space."
+msgstr "A Deepin OS telepítéséhez rendelkezni kell legalább %d GB lemezterülettel."
+
+#: ../resources/installer/js/base.coffee:51
+#: ../resources/installer/js/base.coffee:53
+#: ../resources/installer/js/base.coffee:55
+msgid "Unused"
+msgstr "Nem használt"
+
+#: ../resources/installer/js/dialog.coffee:66
+msgid "OK"
+msgstr "OK"
+
+#: ../resources/installer/js/dialog.coffee:66
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: ../resources/installer/js/dialog.coffee:75
+msgid "Are you sure to exit from installation?"
+msgstr "Biztos kilépünk a telepítőből?"
+
+#: ../resources/installer/js/dialog.coffee:100
+msgid "Are you sure you want to delete this partition?"
+msgstr "Biztos töröljük a partíciót?"
+
+#: ../resources/installer/js/dialog.coffee:113
+msgid "Formatting Partition"
+msgstr "Partíció formázás"
+
+#: ../resources/installer/js/dialog.coffee:115
+msgid "Are you sure you want to format this partition?"
+msgstr "Biztos formázzuk ezt a partíciót?"
+
+#: ../resources/installer/js/dialog.coffee:124
+msgid "Proceed with installation"
+msgstr "Telepítés folytatása"
+
+#: ../resources/installer/js/dialog.coffee:133
+msgid "Deepin OS will be installed to freespace."
+msgstr "Deepin OS a szabad helyre lesz telepítve"
+
+#: ../resources/installer/js/dialog.coffee:135
+msgid "Deepin OS will be installed to "
+msgstr "Deepin OS ide lesz telepítve"
+
+#: ../resources/installer/js/dialog.coffee:135
+msgid ""
+"\n"
+"The partition will be formatted if you continue the installation. Please make a backup for the important data. \n"
+msgstr "\nA partíció formázásra kerül miután folytatjuk a telepítést. Készítsünk biztonsági mentést az adatainkról. \n"
+
+#: ../resources/installer/js/dialog.coffee:135
+msgid "Do you want to continue the installation ?"
+msgstr "Folytatjuk a telepítést?"
+
+#: ../resources/installer/js/dialog.coffee:166
+msgid "Type:"
+msgstr "Típus:"
+
+#: ../resources/installer/js/dialog.coffee:172
+msgid "Primary"
+msgstr "Elsődleges"
+
+#: ../resources/installer/js/dialog.coffee:177
+msgid "Logical"
+msgstr "Logikai"
+
+#: ../resources/installer/js/dialog.coffee:207
+msgid "Size:"
+msgstr "Méret:"
+
+#: ../resources/installer/js/dialog.coffee:251
+msgid "Align:"
+msgstr "Elrendezés:"
+
+#: ../resources/installer/js/dialog.coffee:257
+msgid "Begin"
+msgstr "Kezdet"
+
+#: ../resources/installer/js/dialog.coffee:262
+msgid "End"
+msgstr "Vég"
+
+#: ../resources/installer/js/dialog.coffee:282
+msgid "Filesystem:"
+msgstr "Fájlrendszer:"
+
+#: ../resources/installer/js/dialog.coffee:306
+msgid "Mount:"
+msgstr "Csatolás:"
+
+#: ../resources/installer/js/dialog.coffee:339
+msgid "Please enter a valid partition size."
+msgstr "Adjunk meg egy érvényes partíció méretet."
+
+#: ../resources/installer/js/welcome.coffee:202
+msgid "Yes"
+msgstr "Igen"
+
+#: ../resources/installer/js/welcome.coffee:207
+msgid "No"
+msgstr "Nem"
+
+#: ../resources/installer/js/welcome.coffee:302
+msgid "Please press one of the following keys."
+msgstr "Nyomjuk meg a következő gombok egyikét."
+
+#: ../resources/installer/js/welcome.coffee:308
+msgid "Please confirm you have the following keys."
+msgstr "Igazoljuk, hogy rendelkezünk a következő gombokkal."
+
+#: ../resources/installer/js/welcome.coffee:352
+msgid "Detect Layout"
+msgstr "Elrendezés érzékelése"
+
+#: ../resources/installer/js/welcome.coffee:358
+msgid "View Current"
+msgstr "Jelenlegi megtekintése"
+
+#: ../resources/installer/js/welcome.coffee:515
+msgid "Please select or search your location."
+msgstr "Válasszuk ki vagy keressük meg a helyzetünket."
+
+#: ../resources/installer/js/welcome.coffee:765
+msgid "Empty"
+msgstr "Üres"
+
+#: ../resources/installer/js/welcome.coffee:845
+#: ../resources/installer/js/welcome.coffee:950
+msgid "The two passwords do not match."
+msgstr "A két jelszó nem egyezik."
+
+#: ../resources/installer/js/welcome.coffee:907
+msgid "Computer name is invald."
+msgstr "A számítógépnév érvénytelen"
+
+#: ../resources/installer/js/welcome.coffee:920
+#: ../resources/installer/js/welcome.coffee:1032
+msgid "Password can not be empty."
+msgstr "A jelszó nem lehet üres."
+
+#: ../resources/installer/js/welcome.coffee:985
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: ../resources/installer/js/welcome.coffee:988
+msgid "Computer Name"
+msgstr "Számítógépnév"
+
+#: ../resources/installer/js/welcome.coffee:991
+msgid "Password"
+msgstr "Jelszó"
+
+#: ../resources/installer/js/welcome.coffee:996
+msgid "Retype Password"
+msgstr "Jelszó ismétlés"
+
+#: ../resources/installer/js/welcome.coffee:1016
+msgid "Username can not be empty."
+msgstr "A felhasználónév nem lehet üres."
+
+#: ../resources/installer/js/welcome.coffee:1024
+msgid "Computer name can not be empty."
+msgstr "A számítógép nevét nem lehet üresen hagyni."
+
+#: ../resources/installer/js/welcome.coffee:1041
+msgid "Password cannot be empty."
+msgstr "A jelszómező nem lehet üres."
+
+#: ../resources/installer/js/welcome.coffee:1045
+msgid "Next"
+msgstr "Következő"
+
+#: ../resources/installer/js/welcome.coffee:1102
+msgid "Time Zone"
+msgstr "Időzóna"
+
+#: ../resources/installer/js/welcome.coffee:1108
+msgid "Keyboard"
+msgstr "Billentyűzet"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:59
+msgid "Deepin Store"
+msgstr "Deepin Áruház"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:61
+msgid "One-stop Software Management"
+msgstr "Egyablakos szoftver kezelés"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:62
+msgid "Continuous Update of Wonderful Software"
+msgstr "A csodálatos szoftverek folyamatos frissítése"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:63
+msgid "Unimpeded Online Communication"
+msgstr "Akadálytalan online kommunikáció"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:67
+msgid "Deepin Movie"
+msgstr "Deepin Film"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:69
+msgid "Comprehensive Audio-visual Shock"
+msgstr "Átfogó audiovizuális hatás"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:70
+msgid "New Interactive Experience"
+msgstr "Új interaktív élmény"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:71
+msgid "Intelligent Subtitle Loading"
+msgstr "Intelligens felirat betöltés"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:75
+msgid "Deepin Music"
+msgstr "Deepin Zene"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:77
+msgid "Ultimate Music Journey"
+msgstr "Határtalan zenei utazás"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:78
+msgid "Rich Extended Functions"
+msgstr "Számos kibővített funkció"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:79
+msgid "Enjoy Online Strongest Voice"
+msgstr "Élvezzük online a legerősebb hangot"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:83
+msgid "Deepin Community"
+msgstr "Deepin közösség"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:85
+msgid "Free and United Open Source Community"
+msgstr "Szabad és együttműködő Nyílt Forráskódú közösség"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:86
+msgid "Welcome to participate in Deepin Internationalization Project"
+msgstr "Üdvözlet a Deepin Nemzetközi Project résztvevői között"
+
+#: ../resources/installer/ppt/slideshow2014/boxmessage.coffee:87
+msgid ""
+"Welcome to follow us on Weibo, Twitter, Facebook, Google+, Mailing List and "
+"IRC"
+msgstr "Örömmel vesszük a követést a Webion, Twitteren, Facebookon, Google+-on és a levelezési listánkon vagy IRC csatornánkon."
+
+#: ../app/language-selector/mutils.c:71
+msgid "%a, %b %d, %Y"
+msgstr "%Y %b %d %a"
+
+#: ../app/language-selector/greeter.c:292
+msgid "Invalid Password"
+msgstr "Érvénytelen jelszó"

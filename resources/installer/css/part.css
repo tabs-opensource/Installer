@@ -1,0 +1,589 @@
+.PartTitleMode {
+    background:url("../images/mode.png") no-repeat;
+    background-position:10px 2px;
+    margin-right:20px;
+}
+
+.part_wrap{
+    width:750px;
+    height:450px;
+}
+
+.DiskTab {
+    height:16px;
+    line-height:16px;
+    margin-left:26px;
+    text-align:center;
+}
+
+.DiskTab .Prev {
+    float:left;
+    width:16px;
+    height:16px;
+    margin-right:12px;
+    background:url("../images/arrow_left_normal.png") no-repeat;
+    background-position:2px 2px;
+    padding:2px;
+}
+
+.DiskTab .Prev:hover {
+    background:url("../images/arrow_left_hover.png") no-repeat;
+    background-position:2px 2px;
+}
+
+.DiskTab .Content {
+    float:left;
+    height:18px;
+    line-height:18px;
+}
+
+.DiskTab .Next {
+    float:left;
+    width:16px;
+    height:16px;
+    margin-left:12px;
+    background:url("../images/arrow_right_normal.png") no-repeat;
+    background-position:2px 2px;
+    padding:2px;
+}
+
+.DiskTab .Next:hover {
+    background:url("../images/arrow_right_hover.png") no-repeat;
+    background-position:2px 2px;
+}
+
+.Prev, .Next {
+  cursor: default;
+}
+
+.Prev:hover, .Next:hover {
+  cursor: pointer;
+}
+
+.PartLineMaps {
+    position:absolute;
+    top:110px;
+    left:25px;
+    margin:0;
+    width:700px;
+    height:10px;
+    background:rgba(255,255,255,0.1);
+    border:1px solid rgba(0,0,0,0.3);
+    overflow:hidden;
+}
+
+.PartLineMaps .Line {
+    box-shadow:inset 0 1px rgba(255,255,255,0.2),
+               inset 0 -1px rgba(255,255,255,0.2);
+}
+
+.PartLineItem {
+    position:absolute;
+    float:left;
+    height:10px;
+    box-shadow:inset 1px 0 rgba(255,255,255,0.2),
+               inset -1px 0 rgba(255,255,255,0.2);
+}
+
+.PartLineItem .Mask, .PartLineItemActive .Mask {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background:-webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.3)), to(rgba(255,255,255,0.15)));
+}
+
+.PartLineItemActive {
+    position:absolute;
+    float:left;
+    height:10px;
+    box-shadow:inset 1px 0 rgba(255,255,255,0.4),
+               inset -1px 0 rgba(255,255,255,0.4),
+               inset 0 1px rgba(255,255,255,0.4),
+               inset 0 -1px rgba(255,255,255,0.4),
+               inset 2px 0 rgba(255,255,255,0.4),
+               inset -2px 0 rgba(255,255,255,0.4),
+               inset 0 2px rgba(255,255,255,0.4),
+               inset 0 -2px rgba(255,255,255,0.4);
+}
+
+.PartTable {
+    position:absolute;
+    top:120px;
+    left:25px;
+    width:700px;
+    height:330px;
+    text-align:center;
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius:0 0 5px 5px;
+    box-shadow:inset 0 1px rgba(255,255,255,0.3),
+               inset 0 -1px rgba(255,255,255,0.3),
+               inset 1px 0 rgba(255,255,255,0.3),
+               inset -1px 0 rgba(255,255,255,0.3);
+    background:rgba(255,255,255,0.15);
+}
+
+.PartTable:focus {
+    box-shadow:0 0 2px 1px #7bbefb;
+}
+
+.PartTableHeader {
+    width:700px;
+    height:26px;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+    box-shadow:0 1px rgba(255,255,255,0.2);
+}
+
+.PartTableHeader > div {
+    float:left;
+    height:26px;
+    line-height:27px;
+    border-right:1px solid rgba(0,0,0,0.2);
+    box-shadow:inset 1px 0 rgba(255,255,255,0.2);
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+.PartTableHeader .Info{
+    border-right:none;
+}
+
+.PartTableHeader .Fat {
+    width:199px;
+}
+
+.PartTableHeader .Thin {
+    width:99px;
+}
+
+.PartTableHeader .Fs, .PartTableHeader .Mount {
+    width:109px;
+}
+
+.PartTableHeader .Size {
+    width:79px;
+}
+
+.PartTableHeader .Info {
+    width:209px;
+}
+
+.PartTableItems {
+    width:700px;
+    height:302px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.PartTableItem {
+    width:700px;
+    height:40px;
+    line-height:40px;
+    clear:both;
+}
+
+/*
+.PartTableItemLast {
+    border-bottom:none;
+    box-shadow:none;
+    margin-bottom:4px;
+}
+*/
+
+.PartTableItem > div {
+    height:40px;
+    line-height:40px;
+    float:left;
+    text-align:center;
+    overflow: hidden;
+}
+
+.PartTableItem .Fat {
+    width:200px;
+}
+
+.PartTableItem .Thin {
+    width:100px;
+}
+
+.PartTableItem .Fs {
+    width:110px;
+}
+
+.PartTableItem .SimpleMount {
+    width:209px;
+}
+
+.PartTableItem .AdvancedMount {
+    width:105px;
+}
+
+.PartTableItem .Size {
+    width:80px;
+}
+
+.PartTableItem .Lock {
+    float:left;
+    width:12px;
+    height:12px;
+    line-height:12px;
+    margin:14px 0 14px 18px;
+}
+
+.PartTableItem .Os {
+    float:left;
+    width:40px;
+    height:16px;
+    line-height:16px;
+    margin:12px 0;
+    text-align:center;
+}
+
+.PartTableItem .Color {
+    float:left;
+    width:12px;
+    height:12px;
+    line-height:12px;
+    margin:14px 14px 14px 0;
+    border:1px solid rgba(0,0,0,0.6);
+    border-radius:3px;
+    box-shadow:inset 0 1px rgba(255,255,255,0.4),
+               inset 0 -1px rgba(255,255,255,0.4),
+               inset 1px 0 rgba(255,255,255,0.4),
+               inset -1px 0 rgba(255,255,255,0.4);
+}
+
+.PartTableItem .LabelPath {
+    position:relative;
+    width:100px;
+    height:40px;
+    float:left;
+    text-align:left;
+    vertical-align:middle;
+    display:table-cell;
+}
+
+.PartTableItem .Label, .PartTableItem .Path {
+    width:100px;
+    height:20px;
+    line-height:20px;
+    max-height:40px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.PartTableItem .LabelDetail {
+    position:absolute;
+    top:0;
+    left:0;
+    padding:1px 6px;
+    width:auto;
+    height:auto;
+    background:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.7)), to(rgba(0,0,0,0.8)));
+    border:1px solid rgba(255,255,255,0.4);
+    border-radius:4px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.7);
+}
+
+.PartTableItem .Format {
+    width:16px;
+    height:16px;
+    margin:12px;
+}
+
+.PartTableItem .DropDown {
+    margin:8px 5px;
+    color:rgba(0,0,0,0.8);
+    text-shadow:0 1px rgba(0,0,0,0.2);
+}
+
+.PartTableItem .DropDownCurrent {
+    text-indent:10px;
+}
+
+.PartTableItem .DropDownCurrent input {
+    color:rgba(0,0,0,0.8);
+    text-shadow:0 1px rgba(0,0,0,0.2);
+}
+
+.PartOp {
+    position:absolute;
+    top:250px;
+    width:700px;
+    height:30px;
+    line-height:30px;
+    border-top:1px solid rgba(0,0,0,0.3);
+    box-shadow:inset 0 1px rgba(255,255,255,0.3);
+}
+
+.PartOp >div {
+    float:right;
+    position:relative;
+    text-align:center;
+    margin:5px 10px;
+    height:20px;
+    line-height:20px;
+    text-indent:25px;
+}
+
+.PartAddBtn {
+    pointer-events:none;
+    background:url("../images/add_part.png") no-repeat;
+    color:rgba(255,255,255,0.5);
+}
+
+.PartAddBtnActive {
+    pointer-events:auto;
+    background:url("../images/add_part_active.png") no-repeat;
+    color:rgba(255,255,255,1);
+}
+
+.PartDeleteBtn {
+    pointer-events:none;
+    background:url("../images/delete_part.png") no-repeat;
+    color:rgba(255,255,255,0.5);
+}
+
+.PartDeleteBtnActive {
+    pointer-events:auto;
+    background:url("../images/delete_part_active.png") no-repeat;
+    color:rgba(255,255,255,1);
+}
+
+.PartUefi {
+    position:absolute;
+    display:-webkit-box;
+    -webkit-box-align:center;
+    bottom:110px;
+    left:25px;
+    right:25px;
+    width:700px;
+    height:24px;
+}
+.uefi_txt{
+    height:24px;
+    line-height:24px;
+}
+
+.PartUefi input{
+    height:25px;
+}
+
+.PartGrub {
+    position:absolute;
+    display:-webkit-box;
+    -webkit-box-align:center;
+    bottom:80px;
+    left:25px;
+    width:700px;
+    height:24px;
+}
+
+.PartGrubLoader {
+    position:relative;
+    width:auto;
+    height:24px;
+    line-height:24px;
+}
+
+.PartGrubSelect {
+    margin-left:10px;
+    position:relative;
+    max-width:630px;
+    height:24px;
+    line-height:24px;
+}
+
+.AddPartDialog .AddDesc {
+    display:block;
+    float:left;
+    width:170px;
+    text-indent:60px;
+    text-align:left;
+    height:24px;
+    line-height:24px;
+    margin:8px 0;
+}
+
+.AddPartDialog .AddValue {
+    display:block;
+    float:right;
+    width:230px;
+    text-align:left;
+    height:24px;
+    line-height:24px;
+    margin:8px 0;
+}
+
+.AddPartDialog .AddValueItem {
+    display:block;
+    float:left;
+    width:80px;
+    height:24px;
+}
+
+.AddPartDialog .AddValueItem>span {
+    float:left;
+}
+
+.AddPartDialog .RadioChecked {
+    width:24px;
+    height:24px;
+    background:url("../images/checkbox_checked.png") no-repeat;
+    background-position:0 4px;
+}
+
+.AddPartDialog .RadioUnchecked {
+    width:24px;
+    height:24px;
+    background:url("../images/checkbox_unchecked.png") no-repeat;
+    background-position:0 4px;
+}
+
+.AddPartDialog .SizeWrap {
+    position:relative;
+    width:140px;
+    height:22px;
+    float:left;
+    border-top:1px solid rgba(0,0,0,0.5);
+    border-left:1px solid rgba(0,0,0,0.5);
+    border-right:1px solid rgba(0,0,0,0.5);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    box-shadow:inset 0 -1px rgba(0,0,0,0.3);
+    border-radius:4px;
+    background:-webkit-gradient(linear, left top, left bottom, from(rgba(133,133,133,0.2)), color-stop(0.1, rgba(255,255,255,0.2)), to(rgba(255,255,255,0.2)));
+}
+
+.AddPartDialog .SizeWrap input {
+    width:140px;
+    height:22px;
+    border-style:none;
+    outline-style:none;
+    color:#FFFFFF;
+    text-shadow:0 1px rgba(0,0,0,0.5);
+    background:transparent;
+    padding-left:10px;
+}
+
+.AddPartDialog .SizeMinus {
+    position:absolute;
+    top:0px;
+    right:23px;
+    width:22px;
+    height:22px;
+    line-height:22px;
+    text-align:center;
+    background:url("../images/decrease.png") no-repeat;
+    background-position:3px 3px;
+    border-left:1px solid rgba(0,0,0,0.4);
+    box-shadow:inset 0 1px rgba(255,255,255,0.2),
+               inset 1px 0 rgba(255,255,255,0.2),
+               inset -1px 0 rgba(255,255,255,0.2);
+}
+
+.AddPartDialog .SizeMinus:hover {
+    background:url("../images/decrease_hover.png") no-repeat;
+    background-position:3px 3px;
+}
+
+.AddPartDialog .SizeMinus:active {
+    background:url("../images/decrease_press.png") no-repeat;
+    background-position:3px 3px;
+}
+
+.AddPartDialog .SizeAdd {
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:22px;
+    height:22px;
+    line-height:22px;
+    text-align:center;
+    background:url("../images/increase.png") no-repeat;
+    background-position:3px 3px;
+    border-left:1px solid rgba(0,0,0,0.4);
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    box-shadow:inset 0 1px rgba(255,255,255,0.2),
+               inset 1px 0 rgba(255,255,255,0.2),
+               inset -1px 0 rgba(255,255,255,0.2);
+}
+
+.AddPartDialog .SizeAdd:hover {
+    background:url("../images/increase_hover.png") no-repeat;
+    background-position:3px 3px;
+}
+
+.AddPartDialog .SizeAdd:active {
+    background:url("../images/increase_hover.png") no-repeat;
+    background-position:3px 3px;
+}
+
+.AddPartDialog .SizeDw {
+    position:absolute;
+    top:0px;
+    right:-30px;
+}
+
+.AddPartDialog .DropDown {
+    clear:both;
+}
+
+#mynextstep {
+    position:absolute;
+    left:285px;
+    bottom:20px;
+}
+
+/**
+ * Radio button in webkitgtk-3.0 has no checked styles.
+ */
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+input[type="radio"]:checked + label:after {
+	content: ' ';
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: #99a1a7;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
+}
+
+input[type="radio"]:checked + label {
+	background-color: #e9ecee;
+	color: #99a1a7;
+	border: 1px solid #adb8c0;
+
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+              inset 0px -15px 10px -12px rgba(0, 0, 0, 0.2),
+              inset 15px 10px -12px rgba(255, 255, 255, 0.1),
+              inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="radio"] + label:active, input[type="radio"]:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.uefi_label, .grub_label {
+  margin-right: 5px;
+}
